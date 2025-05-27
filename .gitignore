@@ -1,0 +1,16 @@
+# === Root level ===
+node_modules/
+.env
+.DS_Store
+*.log
+
+# === Client (React app) ===
+client/build/
+client/node_modules/
+client/.env
+client/.DS_Store
+
+# === Server (Node.js API) ===
+server/node_modules/
+server/.env
+server/.DS_Store
