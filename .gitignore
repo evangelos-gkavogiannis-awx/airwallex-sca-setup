@@ -14,3 +14,5 @@ client/.DS_Store
 server/node_modules/
 server/.env
 server/.DS_Store
+
+.env
