@@ -49,7 +49,7 @@ app.post('/authorize', async (req, res) => {
       {
         code_challenge: codeChallenge,
         scope: ['w:awx_action:sca_edit', 'r:awx_action:sca_view'],
-        identity: userId
+        identity: "test190813"
       },
       {
         headers: {
@@ -64,7 +64,7 @@ app.post('/authorize', async (req, res) => {
 
     res.json({
       authCode: authorization_code,
-      clientId: 'fQQJfGO7T9uXDOfRvw7TKw',
+      clientId: '-SGVMBpwSdOfMw7Jxgt58g',
       codeVerifier
     });
   } catch (error) {
